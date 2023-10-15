@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166cdd0e5f4e24494b135bbf91edf3d7, type: 3}
+  m_Name: Trench Planet Shape
+  m_EditorClassIdentifier: 
+  planetRadius: 1
+  noiseLayers:
+  - enabled: 1
+    usePreviousLayersAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 8
+        floor: 0
+        ceiling: 0
+        ceilingHeight: 1.94
+        strength: 0.052
+        sharpness: 0.4
+        elevation: -0.1
+        baseRoughness: 1
+        center: {x: 0, y: 0, z: 0}
+        strengthPersistence: 0.404
+        roughness: 2.27
+      ridgedNoiseSettings:
+        numLayers: 1
+        floor: 1
+        ceiling: 0
+        ceilingHeight: 1
+        strength: 1
+        sharpness: 1
+        elevation: 0
+        baseRoughness: 1
+        center: {x: 0, y: 0, z: 0}
+        strengthPersistence: 0.5
+        roughness: 2
+        elevationWeightMultiplier: 1
+  - enabled: 1
+    usePreviousLayersAsMask: 1
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 7
+        floor: 1
+        ceiling: 0
+        ceilingHeight: 1
+        strength: 0.17
+        sharpness: 3.35
+        elevation: -0.155
+        baseRoughness: 1.96
+        center: {x: 0, y: 0, z: 0}
+        strengthPersistence: 0.263
+        roughness: 2.51
+      ridgedNoiseSettings:
+        numLayers: 1
+        floor: 1
+        ceiling: 0
+        ceilingHeight: 1
+        strength: 1
+        sharpness: 1
+        elevation: 0
+        baseRoughness: 1
+        center: {x: 0, y: 0, z: 0}
+        strengthPersistence: 0.5
+        roughness: 2
+        elevationWeightMultiplier: 1
+  - enabled: 1
+    usePreviousLayersAsMask: 1
+    noiseSettings:
+      filterType: 1
+      simpleNoiseSettings:
+        numLayers: 1
+        floor: 1
+        ceiling: 0
+        ceilingHeight: 1
+        strength: 1
+        sharpness: 1
+        elevation: 0
+        baseRoughness: 1
+        center: {x: 0, y: 0, z: 0}
+        strengthPersistence: 0.5
+        roughness: 2
+      ridgedNoiseSettings:
+        numLayers: 7
+        floor: 1
+        ceiling: 0
+        ceilingHeight: 1
+        strength: 0.526
+        sharpness: 2.34
+        elevation: -0.36
+        baseRoughness: 1.18
+        center: {x: 1.41, y: 0, z: 0}
+        strengthPersistence: 0.158
+        roughness: 1.93
+        elevationWeightMultiplier: 3.8
+  - enabled: 1
+    usePreviousLayersAsMask: 0
+    noiseSettings:
+      filterType: 1
+      simpleNoiseSettings:
+        numLayers: 1
+        floor: 1
+        ceiling: 0
+        ceilingHeight: 1
+        strength: 1
+        sharpness: 1
+        elevation: 0
+        baseRoughness: 1
+        center: {x: 0, y: 0, z: 0}
+        strengthPersistence: 0.5
+        roughness: 2
+      ridgedNoiseSettings:
+        numLayers: 10
+        floor: 0
+        ceiling: 1
+        ceilingHeight: 0
+        strength: -0.368
+        sharpness: 3.32
+        elevation: -0.287
+        baseRoughness: 1
+        center: {x: 0, y: 0, z: 0}
+        strengthPersistence: 0.18
+        roughness: 2.7
+        elevationWeightMultiplier: 5.59
